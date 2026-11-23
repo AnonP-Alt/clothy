@@ -4,11 +4,11 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "eslint",
+    "dev": "next dev",
     "format": "prettier --write \"**/*.{ts,tsx}\"",
+    "lint": "eslint",
+    "start": "next start",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
